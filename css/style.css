@@ -1,0 +1,109 @@
+html {
+	height: 100%;
+}
+
+/* специально для IE */
+
+* html header {
+	height: 100%;
+}
+
+body {
+	background: #2d2e2e;
+	color: #979899;
+	height: 99%;
+	font: 400 14px "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #a4a5a6;
+}
+
+.section-contacts {
+	display: flex;
+	min-height: 100%;
+	border-bottom: solid 1px #979899;
+	margin-bottom: 5px;
+}
+
+.contacts-avatar {
+	background: #202020;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contacts-avatar-img {
+	border-radius: 50%;
+	width: 230px;
+}
+
+.contacts-info {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 75px;
+}
+
+.contacts-info-name {
+  margin-bottom: 40px;
+}
+
+.applicant-name {
+  font-size: 50px;
+}
+
+.title-first-name {
+	display: block;
+}
+
+.title-last-name {
+	color: #e0a80d;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.job-title {
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.contacts-icons-socialnet a {
+	width: 52px;
+	height: 52px;
+	display: inline-flex;
+	padding-bottom: 15px;
+}
+
+.facebook {
+	background: url(../img/icons-socialnet.png) no-repeat 0px 0px;
+}
+
+.linkedin {
+	background: url(../img/icons-socialnet.png) no-repeat -115px 0px;
+}
+
+.mail {
+	background: url(../img/icons-socialnet.png) no-repeat -173px 0px;
+}
+
+h3 {
+	color: #fff;
+	font-size: 16px;
+}
+
+.contact-telegram, .contact-location, .contact-phone {
+	padding-bottom: 15px;
+}
+
+.contact-telegram a {
+	text-decoration: none;
+	color: #a4a5a6;
+}
