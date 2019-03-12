@@ -133,3 +133,9 @@ h3 {
 	width: 70%;
 	background: #202020;
 }
+
+.footer {
+	background: #202020;
+	padding: 20px 0;
+  text-align: center;
+}
